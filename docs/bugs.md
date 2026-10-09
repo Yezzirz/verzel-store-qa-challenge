@@ -66,8 +66,8 @@ O cliente que atingir exatamente R$ 200,00 em produtos não recebe o benefício 
 **Status:** Aberto
 
 **Evidências:**
-- Interface: `docs/evidencias/ct-008-frete-gratis-limite-200.png`
-- API: `docs/evidencias/api/api-005-frete-limite-200.png`
+[Ver evidência CT-008](evidencias/ct-008-frete-gratis-limite-200.png)
+- [Ver evidência API-005](evidencias/api/api-005-frete-limite-200.png)
 
 ---
 
@@ -88,7 +88,7 @@ O cliente que atingir exatamente R$ 200,00 em produtos não recebe o benefício 
 
 ```json
 {
-  "items": [
+  "itens": [
     { "produtoId": "P005", "quantidade": 6 }
   ]
 }
@@ -120,4 +120,4 @@ A API permite contornar a regra de negócio que limita cada produto a no máximo
 **Status:** Aberto
 
 **Evidência:**
-`docs/evidencias/api/api-007-quantidade-acima-5.png`
+[Ver evidência API-007](evidencias/api/api-007-quantidade-acima-5.png)

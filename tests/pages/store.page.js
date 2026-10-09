@@ -85,10 +85,10 @@ export class StorePage {
   async validarFrete(valor) {
     await expect(this.frete).toHaveText(valor);
   }
-  
-async validarFreteGratis() {
+
+  async validarFreteGratis() {
   await expect(this.frete).toHaveText('Grátis');
-}
+  }
   async validarTotal(valor) {
     await expect(this.total).toHaveText(valor);
   }

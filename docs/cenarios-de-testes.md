@@ -45,7 +45,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-001-cupom-valido.png`
+[Ver evidência CT-001](evidencias/ct-001-cupom-valido.png)
 
 ---
 
@@ -75,7 +75,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-002-cupom-minusculo.mp4`
+[Ver evidência CT-002](evidencias/ct-002-cupom-minusculo.mp4)
 
 ---
 
@@ -103,7 +103,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-003-cupom-espacos.mp4`
+[Ver evidência CT-003](evidencias/ct-003-cupom-espacos.mp4)
 
 ---
 
@@ -129,7 +129,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-004-cupom-minusculo-espacos.mp4`
+[Ver evidência CT-004](evidencias/ct-004-cupom-minusculo-espacos.mp4)
 
 ---
 
@@ -157,7 +157,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-005-cupom-invalido.png`
+[Ver evidência CT-005](evidencias/ct-005-cupom-invalido.png)
 
 ---
 
@@ -186,7 +186,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-006-cupom-expirado.png`
+[Ver evidência CT-006](evidencias/ct-006-cupom-expirado.png)
 
 ---
 
@@ -218,7 +218,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-007-remover-cupom.png`
+[Ver evidência CT-007](evidencias/ct-007-remover-cupom.mp4)
 
 ---
 
@@ -258,7 +258,7 @@ Validação da entrega de:
 **Bug relacionado:** BUG-001
 
 **Evidência:**
-`docs/evidencias/ct-008-frete-gratis-limite-200.png`
+[Ver evidência CT-008](evidencias/ct-008-frete-gratis-limite-200.png)
 
 ---
 
@@ -294,7 +294,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-009-frete-abaixo-limite.png`
+[Ver evidência CT-009](evidencias/ct-009-frete-abaixo-limite.png)
 
 ---
 
@@ -329,7 +329,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-010-frete-gratis-acima-200.png`
+[Ver evidência CT-010](evidencias/ct-010-frete-gratis-acima-200.png)
 
 ---
 
@@ -367,7 +367,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-011-frete-gratis-com-cupom.png`
+[Ver evidência CT-011](evidencias/ct-011-frete-gratis-com-cupom.png)
 
 ---
 
@@ -405,7 +405,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-012-cupom-nao-desconta-frete.png`
+[Ver evidência CT-012](evidencias/ct-012-cupom-nao-desconta-frete.png)
 
 ---
 
@@ -436,7 +436,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-013-limite-5-unidades.png`
+[Ver evidência CT-013](evidencias/ct-013-limite-5-unidades.png)
 
 ---
 
@@ -447,17 +447,18 @@ Validação da entrega de:
 **Prioridade:** Alta
 
 **Pré-condições:**
-- Produto com quantidade igual a 5 no carrinho.
+-  Carrinho inicialmente vazio.
 
 **Passos:**
-1. Adicionar um produto ao carrinho.
-2. Aumentar sua quantidade até 5 unidades.
+1. Acessar a listagem de produtos.
+2. Adicionar 5 unidades de cada produto ao carrinho.
 3. Acessar o carrinho.
 4. Tentar aumentar novamente a quantidade utilizando o botão `+`.
+5. Verificar se as quantidades e os valores permanecem inalterados.
 
 **Resultado esperado:**
-- A interface não deve permitir quantidade superior a 5 unidades do mesmo produto.
-- A quantidade não deve ultrapassar 5.
+- Nenhum produto deve ultrapassar 5 unidades.
+- Os botões + devem ficar desabilitados ao atingir o limite.
 - Os valores do carrinho não devem ser calculados considerando uma sexta unidade.
 
 **Resultado obtido:**
@@ -469,7 +470,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-014-bloqueio-acima-5-unidades.mp4`
+[Ver evidência CT-014](evidencias/ct-014-bloqueio-acima-5-unidades.mp4)
 
 ---
 
@@ -509,7 +510,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/ct-015-arredondamento-valores.png`
+[Ver evidência CT-015](evidencias/ct-015-arredondamento-valores.png)
 
 # 5. Testes de API
 
@@ -540,7 +541,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-001-listar-produtos.png`
+[Ver evidência API-001](evidencias/api/api-001-listar-produtos.png)
 
 ---
 
@@ -569,7 +570,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-002-produto-por-id.png`
+[Ver evidência API-002](evidencias/api/api-002-produto-por-id.png)
 
 ---
 
@@ -596,7 +597,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-003-produto-inexistente.png`
+[Ver evidência API-003](evidencias/api/api-003-produto-inexistente.png)
 
 ---
 
@@ -647,7 +648,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-004-cupom-valido.png`
+[Ver evidência API-004](evidencias/api/api-004-cupom-valido.png)
 
 ---
 
@@ -696,7 +697,7 @@ Validação da entrega de:
 **Bug relacionado:** BUG-001
 
 **Evidência:**
-`docs/evidencias/api/api-005-frete-limite-200.png`
+[Ver evidência API-005](evidencias/api/api-005-frete-limite-200.png)
 
 ---
 
@@ -748,7 +749,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-006-frete-gratis-com-cupom.png`
+[Ver evidência API-006](evidencias/api/api-006-frete-gratis-com-cupom.png)
 
 ---
 
@@ -791,7 +792,7 @@ Validação da entrega de:
 **Bug relacionado:** BUG-002
 
 **Evidência:**
-`docs/evidencias/api/api-007-quantidade-acima-5.png`
+[Ver evidência API-007](evidencias/api/api-007-quantidade-acima-5.png)
 
 ---
 
@@ -829,7 +830,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-008-quantidade-zero.png`
+[Ver evidência API-008](evidencias/api/api-008-quantidade-zero.png)
 
 ---
 
@@ -865,7 +866,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-009-lista-vazia.png`
+[Ver evidência API-009](evidencias/api/api-009-lista-vazia.png)
 
 ---
 
@@ -905,7 +906,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-010-produto-duplicado.png`
+[Ver evidência API-010](evidencias/api/api-010-produto-duplicado.png)
 
 ---
 
@@ -951,7 +952,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-011-cupom-invalido.png`
+[Ver evidência API-011](evidencias/api/api-011-cupom-invalido.png)
 
 ---
 
@@ -997,7 +998,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-012-cupom-expirado.png`
+[Ver evidência API-012](evidencias/api/api-012-cupom-expirado.png)
 
 ---
 
@@ -1053,7 +1054,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-013-pedido-valido.png`
+[Ver evidência API-013](evidencias/api/api-013-pedido-valido.png)
 
 ---
 
@@ -1099,7 +1100,7 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-014-pedido-cupom-invalido.png`
+[Ver evidência API-014](evidencias/api/api-014-pedido-cupom-invalido.png)
 
 ---
 
@@ -1145,4 +1146,4 @@ Validação da entrega de:
 **Status:** PASS
 
 **Evidência:**
-`docs/evidencias/api/api-015-pedido-cupom-expirado.png`
+[Ver evidência API-015](evidencias/api/api-015-pedido-cupom-expirado.png)
