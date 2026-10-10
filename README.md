@@ -71,15 +71,11 @@ Foram documentados:
 
 Os cenários estão disponíveis em:
 
-```text
-docs/cenarios-de-testes.md
-```
+[docs/cenarios-de-testes.md](docs/cenarios-de-testes.md)
 
 As evidências estão disponíveis em:
 
-```text
-docs/evidencias/
-```
+[docs/evidencias/](docs/evidencias/)
 
 ---
 
@@ -113,15 +109,11 @@ Foram executados cenários positivos, negativos e de limite, incluindo:
 
 Os resultados também estão documentados em:
 
-```text
-docs/cenarios-de-testes.md
-```
+[docs/cenarios-de-testes.md](docs/cenarios-de-testes.md)
 
 As evidências das requisições estão em:
 
-```text
-docs/evidencias/api/
-```
+[docs/evidencias/api/](docs/evidencias/api/)
 
 ---
 
@@ -166,9 +158,7 @@ API-007
 
 O relatório completo dos defeitos está disponível em:
 
-```text
-docs/bugs.md
-```
+[docs/bugs.md](docs/bugs.md)
 
 ---
 
@@ -288,6 +278,16 @@ npx playwright test
 
 ---
 
+## Integração contínua
+
+O projeto utiliza **GitHub Actions** para executar os testes Playwright automaticamente em pushes e pull requests direcionados às branches `main` e `master`.
+
+A pipeline instala as dependências e os navegadores, executa a suíte configurada e disponibiliza o relatório HTML como artefato `playwright-report`, com retenção de 30 dias.
+
+Workflow: [playwright.yml](.github/workflows/playwright.yml)
+
+---
+
 ## Relatório do Playwright
 
 Após executar os testes, o relatório HTML pode ser aberto com:
@@ -306,9 +306,7 @@ Alguns cenários críticos também foram descritos utilizando **Gherkin em portu
 
 Arquivo:
 
-```text
-docs/gherkin/cenarios.feature
-```
+[docs/gherkin/cenarios.feature](docs/gherkin/cenarios.feature)
 
 Exemplo:
 
